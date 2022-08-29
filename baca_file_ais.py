@@ -1,6 +1,6 @@
 from pyais.stream import FileReaderStream
 
-filename = "nmea_data_sample.txt"
+filename = "2018090407.txt"
 
 for msg in FileReaderStream(filename):
     decoded = msg.decode()
